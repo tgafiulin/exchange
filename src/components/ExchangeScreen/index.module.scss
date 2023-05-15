@@ -1,0 +1,61 @@
+.exchange {
+    max-width: 900px;
+    padding: 20px;
+    width: 100%;
+}
+
+.exchange__title {
+    font-size: 50px;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.exchange__desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 60px;
+}
+
+.line {
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+
+    
+    @media (max-width: 700px) {
+       flex-direction: column;
+    }
+}
+
+.fields_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 6px;
+}
+
+.field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: #F6F7F8;
+    border: 1px solid #E3EBEF;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 8px 10px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282828;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}

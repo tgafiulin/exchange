@@ -1,0 +1,11 @@
+
+.error {
+    position: absolute;
+    bottom: -20px;
+    background: transparent;
+    opacity: 0;
+
+    &_show {
+        opacity: 1;
+    }
+}

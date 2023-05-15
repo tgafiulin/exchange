@@ -1,0 +1,28 @@
+.wrapper {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 13px 0 12px 16px;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.ticker {
+    text-transform: uppercase;
+    color: #282828;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 16px;
+}
+
+.name {
+    color: #80A2B6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
